@@ -119,3 +119,43 @@ footer{
     transform: translate(-50%, -50%);
     height: 75vh;
 }
+
+/* tablet */
+@media(max-width: 960px){
+    body{
+        padding-inline: 32px;
+        padding-bottom: 32px;
+    }
+    
+    main{
+        justify-content: space-between;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .container{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .container p{
+        width: 80%;
+    }
+
+    .container div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .pikachu-image{
+        height: 50vh;
+    }
+}
