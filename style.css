@@ -159,3 +159,28 @@ footer{
         height: 50vh;
     }
 }
+
+/* mobile */
+
+@media(max-width: 640px){
+    header div{
+        display: none;
+    }
+
+    .container div{
+        width: 100%;
+    }
+
+    .container p{
+        display: none;
+    }
+
+    .container h2{
+        font-size: 36px;
+    }
+
+    .title span{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
